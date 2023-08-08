@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body{
+    background-color: burlywood;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: bisque;
+  }
+  h4{
+    font-size: 25px;
+  }
+
+  nav ul{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  nav ul li{
+    cursor: pointer;
+    font-size: 600;
+  }
+nav ul li:hover{
+    color: crimson;
+}
+  #formedit{
+    margin: 50px 0;
+    height: 100px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  h1{
+    font-size: 50px;
+    margin: 50px 0;
+    text-align: center;
+
+  }
+
+  input{
+    width: 20rem;
+    background:transparent;
+    border:none;
+    height:20px;
+    outline: white solid;
+    font-size:medium;
+    padding-left:3%;
+    border-radius:4px;
+    transition: all 0.3s;
+  }
+  input:focus{
+    outline:green solid;
+    transform: scale(1.03) perspective(1px);
+  
+  }
+
+  label{
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+  }
+
+ button{
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 10rem;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    padding: 10px 10px;
+    display: block;
+    border: none;
+    transition: 1s;
+ }
+
+ button:hover{
+    background-color: rgb(13, 85, 220);
+    box-shadow: 5px 4px 2px 7px rgb(30, 30, 30);
+ }
+
+

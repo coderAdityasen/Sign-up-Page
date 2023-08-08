@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>INTERCROWD.COM</h4>
+        </div>
+        <ul>
+            <li>HOME</li>
+            <li>GALLERY</li>
+            <li>REGISTER</li>
+            <li>LOGIN</li>
+            <li>CONTACT US</li>
+        </ul>
+    </nav>
+
+    <h1>User Registration Page</h1>
+
+
+    <form id="formedit" method="post">
+        <label for="name">Name:</label>
+        <input id="name"  type="text" require>
+        <label for="email">Email:</label>
+        <input id="email"  type="email" require>
+        <label for="numb">Mobile:</label>
+        <input id="numb"  type="number" require>
+        <label for="user">Username:</label>
+        <input id="user"  type="text" require>
+        <label for="password" >Password:</label>
+        <input id="password"  minlength="8" type="password" require>
+        <label for="checkpass">Confirm Password:</label>
+        <input id="checkpass" minlength="8" type="password" required>
+
+        <button type="button" onclick="checkdetail()">Submit</button>
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>
